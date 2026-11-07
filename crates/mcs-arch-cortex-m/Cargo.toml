@@ -1,0 +1,9 @@
+[package]
+name = "mcs-arch-cortex-m"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "ARM Cortex-M (ARMv7-M / ARMv8-M) hardware backend for mcs-rtos-lite with per-criticality MPU partitions and PendSV context switching"
+
+[dependencies]
+mcs-arch = { path = "../mcs-arch" }

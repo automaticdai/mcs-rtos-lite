@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/mcs-arch",
+    "crates/mcs-core",
+    "crates/mcs-arch-mock",
+    "crates/mcs-arch-cortex-m",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["mcs-rtos-lite contributors"]

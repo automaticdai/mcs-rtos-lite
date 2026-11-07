@@ -1,0 +1,9 @@
+[package]
+name = "mcs-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Core mixed-criticality kernel, N-level Vestal mode controller, pluggable AMC/EDF-VD schedulers, and wait-free IPC"
+
+[dependencies]
+mcs-arch = { path = "../mcs-arch" }

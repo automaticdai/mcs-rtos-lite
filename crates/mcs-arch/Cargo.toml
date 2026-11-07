@@ -1,0 +1,6 @@
+[package]
+name = "mcs-arch"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hardware abstraction traits for mcs-rtos-lite (MPU/PMP partitions, context switching, and one-shot budget timers)"

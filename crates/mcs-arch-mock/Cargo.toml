@@ -1,0 +1,11 @@
+[package]
+name = "mcs-arch-mock"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Deterministic discrete-event hardware simulator for testing mcs-rtos-lite on the host"
+
+[dependencies]
+mcs-arch = { path = "../mcs-arch" }
+mcs-core = { path = "../mcs-core" }
+mcs-arch-cortex-m = { path = "../mcs-arch-cortex-m" }
